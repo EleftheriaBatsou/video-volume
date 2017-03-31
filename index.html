@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript" src="script.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  
+  <h2 style="text-align: center"> Custom Video Player</h2>
+  <h4 style="text-align: center">You can control: play/pause, seek your favourite part, watch the duration/current play time and change the volume</h4>
+  
+  
+<div id="video_player_box">
+  <video id="my_video" width="550" height="300" autoplay>
+    <source src="https://r14---sn-q4f7sns7.googlevideo.com/videoplayback?lmt=1488914690135978&signature=9E8D2565F0349936DE5C76B2154C5AD9F4151CCA.88D63095C6C2C195D9CC185D2D381F24A1FD70A3&beids=[9465691]&mime=video/mp4&key=yt6&itag=18&ipbits=0&requiressl=yes&pl=20&gir=yes&clen=27619622&expire=1488992689&id=o-AGIY5YhnMAWpjiLhHXUD9VEH2BVpk_4ZgD_n74GJB9-s&sparams=clen,dur,ei,gir,id,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,pl,ratebypass,requiressl,source,upn,expire&ip=75.126.112.212&ei=UeW_WIChJsGp8wSioZmYBw&dur=364.088&ratebypass=yes&ms=au&mt=1488970970&mv=u&mm=31&source=youtube&mn=sn-q4f7sns7&upn=MZ5QGf3BOFk&signature=&title=lazybox.me-1200C-Molten-Copper-in-Slow-Motion---The-Slow-Mo-Guys&fp=7lvM3ZVzhZ_UaZWno26bn61qnJ6oc5qlo2mdodZxx6fXcMfTrWuVoqlzl86naoWZla7Ej61bsNztos_Z1JWSoqFpg5XKotHR4rDWjcGNg56jZ5Ook5CyxKltjI20qdPZ2JDIz76i18mibpakoWyZjZuEq8HAhY-N36LO0pOAyNDeqIyNtqHV3OCev5yob5GdoWucn6dnm6STjMTT1KvMyaJulqShbJmPn1vXj61ql6Wrcpqeo3Gc6g">
+  </video>
+  <div id="video_controls_bar">
+    <button id="playpausebtn"> </button>
+    <input id="seekslider" type="range" min="0" max="100" value="0" step="1">
+    
+    <div id="duration">
+      <span id="curtimetext">00:00</span> / <span id="durtimetext">00:00</span>
+    </div> <!-- end of duration -->
+    
+    <button id="mutebtn">  </button>
+    <input id="volumeslider" type="range" min="0" max="100" value="100" step="1">
+    
+  </div>
+</div>
+  
+  
+   <div style="text-align: center" id="footer">
+    <h5><a href="http://www.eleftheriabatsou.com" target="_blank">Eleftheria Batsou</a> | <a href="http://codepen.io/EleftheriaBatsou" target="_blank">Projects</a></h5>
+  </div> <!-- end footer -->
+  
+</body>
+</html>

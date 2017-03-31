@@ -1,0 +1,60 @@
+body{ 
+   background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  background-repeat: no-repeat;
+  
+  
+   background-size: contain;
+   background-attachment: fixed;
+  
+   color: white;
+}
+
+
+button{ border:none; cursor:pointer; outline:none; }
+
+
+button#playpausebtn{	background:url(https://image.flaticon.com/icons/svg/189/189889.svg) no-repeat;
+	width:10%;
+	height:50px;
+  
+  display: block;
+    margin: auto;
+  
+}
+
+button#mutebtn{	background:url(https://image.flaticon.com/icons/svg/204/204287.svg) no-repeat;
+	width:10%;
+	height:50px;
+  
+  display: block;
+    margin: auto;
+}
+
+
+#footer {color: #000}
+#footer a:link{ color: #000; }
+#footer a:hover{ background: #fff; }
+#footer a:visited{ color: #000; }
+#footer a:active{ background: #EEFFA8; }
+
+
+div#video_player_box{ width:550px; background:#000; margin:0px auto;}
+div#video_controls_bar{ background: #333; padding:10px; }
+
+#seekslider{
+  padding:10px;
+  display: block;
+  margin:0px auto;
+}
+
+#volumeslider{
+  padding:10px;
+  display: block;
+  margin:0px auto;
+}
+
+#duration{
+  padding:10px;
+  margin:0px auto;
+  text-align: center;
+}
